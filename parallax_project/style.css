@@ -20,14 +20,15 @@ header {
     width:100%;
     padding: 30px 50px;
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-start;
     align-items: center;
     z-index: 100;
 }
 .logo {
     font-size:2em;
     color:#359381;
-    pointer-events: none;   
+    pointer-events: none;
+    margin-right: 270px;
 }
 
 .navigation a {
@@ -57,7 +58,8 @@ header {
 #text {
     position:absolute;
     font-size: 5em;
-    color:#333;
+    color:#fff;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.2);
 }
 .parallax img {
     position: absolute;
@@ -65,4 +67,22 @@ header {
     left: 0;
     width:100%;
     pointer-events: none;
+}
+
+.sec {
+    position: relative;
+    background: #003329;
+    padding:100px;
+}
+
+.sec h2 {
+    color:#fff;
+    font-size: 3em;
+    margin-bottom: 10px;
+}
+
+.sec p {
+    font-size: 1em;
+    color: #fff;
+    font-weight: 300;
 }
