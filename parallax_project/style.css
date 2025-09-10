@@ -18,7 +18,7 @@ header {
     top:0;
     left:0;
     width:100%;
-    padding: 30px 100px;
+    padding: 30px 50px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -39,7 +39,8 @@ header {
     font-weight: 600;
 }
 
-.navigation a:hover {
+.navigation a:hover ,
+.navigation a.active {
     background: #359381;
     color:#fff;
     transition: 0.5s;
