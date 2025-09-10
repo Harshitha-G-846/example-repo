@@ -10,7 +10,7 @@
 body{
     background: #f9f9f9;
     min-height: 100vh;
-
+    overflow-x: hidden;
 }
 
 header {
@@ -58,4 +58,11 @@ header {
     position:absolute;
     font-size: 5em;
     color:#333;
+}
+.parallax img {
+    position: absolute;
+    top:0;
+    left: 0;
+    width:100%;
+    pointer-events: none;
 }
