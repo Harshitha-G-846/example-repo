@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin Page</title>
+    <link rel="stylesheet" href="style1.css">
+</head>
+<body>
+    <header>
+        <div class="box">
+            <h1>Welcome, <span><?= $_SESSION['name'];?></span></h1>
+            <p> This is an <span>Admin</span> page</p>
+        </div>
+        <nav class="navigation">
+            <a href="#" class="active">Home</a>
+            <a href="#">About</a>
+            <a href="#">Services</a>
+            <a href="#">Contact</a>
+        </nav>
+    </header>
+    <button onclick="window.location.href='logout.php'">Logout</button>
+    <section class="parallax">
+        <img src="hill1.png" id="hill1">
+        <img src="hill2.png" id="hill2">
+        <img src="hill3.png" id="hill3">
+        <img src="hill4.png" id="hill4">
+        <img src="hill5.png" id="hill5">
+        <img src="tree.png" id="tree">
+        <h2 id="text">ADMIN PAGE</h2>
+        <img src="leaf.png" id="leaf">
+        <img src="plant.png" id="plant">
+    </section>
+    <section class="sec">
+        <button onclick="window.location.href='logout.php'">Logout</button>
+    </section>
+    <script src="script1.js"></script>
+</body>
+</html>
